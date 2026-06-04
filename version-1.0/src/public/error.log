@@ -5116,3 +5116,20 @@
 [Tue Jun 02 16:16:53.835137 2026] [php:notice] [pid 18632:tid 2068] [client 127.0.0.1:53317] Route handler: GraphQLController@handle, referer: http://www.jephy-mvc.loc/graphql
 [Tue Jun 02 16:16:53.836140 2026] [php:notice] [pid 18632:tid 2068] [client 127.0.0.1:53317] isLoggedIn function registered with Smarty, referer: http://www.jephy-mvc.loc/graphql
 [Tue Jun 02 16:16:53.838137 2026] [php:notice] [pid 18632:tid 2068] [client 127.0.0.1:53317] Executing controller: App\\Controllers\\GraphQLController->handle, referer: http://www.jephy-mvc.loc/graphql
+[Wed Jun 03 10:49:35.348268 2026] [php:notice] [pid 13420:tid 2076] [client 127.0.0.1:56364] Routing: URI='/graphql', Method='GET'
+[Wed Jun 03 10:49:36.218753 2026] [php:notice] [pid 13420:tid 2076] [client 127.0.0.1:56364] Route found - Type: controller
+[Wed Jun 03 10:49:36.218753 2026] [php:notice] [pid 13420:tid 2076] [client 127.0.0.1:56364] Route handler: GraphQLController@handle
+[Wed Jun 03 10:49:38.826263 2026] [php:notice] [pid 13420:tid 2076] [client 127.0.0.1:56364] isLoggedIn function registered with Smarty
+[Wed Jun 03 10:49:47.572350 2026] [php:notice] [pid 13420:tid 2076] [client 127.0.0.1:56364] Executing controller: App\\Controllers\\GraphQLController->handle
+[Wed Jun 03 10:49:50.484901 2026] [php:notice] [pid 13420:tid 2076] [client 127.0.0.1:56364] Routing: URI='/favicon.ico', Method='GET', referer: http://www.jephy-mvc.loc/graphql
+[Wed Jun 03 10:49:50.485888 2026] [php:notice] [pid 13420:tid 2076] [client 127.0.0.1:56364] Route not found: /favicon.ico, referer: http://www.jephy-mvc.loc/graphql
+[Thu Jun 04 12:02:31.545704 2026] [php:notice] [pid 13420:tid 2076] [client 127.0.0.1:61658] Routing: URI='/', Method='GET'
+[Thu Jun 04 12:02:31.741714 2026] [php:notice] [pid 13420:tid 2076] [client 127.0.0.1:61658] Route found - Type: controller
+[Thu Jun 04 12:02:31.741714 2026] [php:notice] [pid 13420:tid 2076] [client 127.0.0.1:61658] Route handler: HomeController@index
+[Thu Jun 04 12:02:32.146772 2026] [php:notice] [pid 13420:tid 2076] [client 127.0.0.1:61658] isLoggedIn function registered with Smarty
+[Thu Jun 04 12:02:32.146772 2026] [php:notice] [pid 13420:tid 2076] [client 127.0.0.1:61658] Executing controller: App\\Controllers\\HomeController->index
+[Thu Jun 04 12:30:03.498875 2026] [php:notice] [pid 13420:tid 2076] [client 127.0.0.1:62148] Routing: URI='/', Method='GET'
+[Thu Jun 04 12:30:03.498875 2026] [php:notice] [pid 13420:tid 2076] [client 127.0.0.1:62148] Route found - Type: controller
+[Thu Jun 04 12:30:03.498875 2026] [php:notice] [pid 13420:tid 2076] [client 127.0.0.1:62148] Route handler: HomeController@index
+[Thu Jun 04 12:30:03.501066 2026] [php:notice] [pid 13420:tid 2076] [client 127.0.0.1:62148] isLoggedIn function registered with Smarty
+[Thu Jun 04 12:30:03.501754 2026] [php:notice] [pid 13420:tid 2076] [client 127.0.0.1:62148] Executing controller: App\\Controllers\\HomeController->index
