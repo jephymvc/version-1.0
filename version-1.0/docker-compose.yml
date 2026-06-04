@@ -1,0 +1,29 @@
+# docker-compose.yml
+version: '3.8'
+
+services:
+  apache:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: jephy-mvc-app
+    restart: unless-stopped
+    ports:
+      - "3800:3800"
+    volumes:
+      # Mount src for development (allows live code updates)
+      - ./src:/var/www/html
+    environment:
+      - TZ=UTC
+      - DB_DRIVER=${DB_DRIVER}
+      - DB_HOST=${DB_HOST}
+      - DB_PORT=${DB_PORT}
+      - DB_DATABASE=${DB_DATABASE}
+      - DB_USERNAME=${DB_USERNAME}
+      - DB_PASSWORD=${DB_PASSWORD}
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge

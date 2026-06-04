@@ -1,0 +1,40 @@
+{
+    "name": "jephy/mvc",
+    "require": {
+        "smarty/smarty": "^4.0",
+        "phpmailer/phpmailer": "^6.8",
+        "nesbot/carbon": "^3.11",
+        "firebase/php-jwt": "^7.0",
+        "webonyx/graphql-php": "^15.32"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\Core\\": "jephy-mvc/core",
+            "App\\Core\\Services\\": "jephy-mvc/core/services",
+            "App\\Controllers\\": "jephy-mvc/app/controllers",
+            "App\\Entities\\": "jephy-mvc/app/entities",
+            "App\\Classes\\": "jephy-mvc/app/classes",
+            "App\\Hooks\\": "jephy-mvc/app/hooks",
+            "App\\Traits\\": "jephy-mvc/app/traits",
+            "App\\Image\\": "jephy-mvc/app/image",
+            "App\\Models\\": "jephy-mvc/app/models",
+            "App\\Listeners\\": "jephy-mvc/app/listeners",
+            "App\\Providers\\": "jephy-mvc/app/providers",
+            "App\\Repositories\\": "jephy-mvc/app/repositories",
+            "App\\Services\\": "jephy-mvc/app/services",
+            "App\\Middleware\\": "jephy-mvc/app/middleware",
+            "App\\GraphQL\\": "jephy-mvc/app/graphql",
+            "App\\GraphQL\\Enums\\": "jephy-mvc/app/graphql/enums",
+            "App\\GraphQL\\Inputs\\": "jephy-mvc/app/graphql/inputs",
+            "App\\GraphQL\\Mutations\\": "jephy-mvc/app/graphql/mutations",
+            "App\\GraphQL\\Objects\\": "jephy-mvc/app/graphql/objects",
+            "App\\GraphQL\\Queries\\": "jephy-mvc/app/graphql/queries",
+            "App\\Core\\GraphQL\\Config\\": "jephy-mvc/core/graphql/config",
+            "App\\Core\\GraphQL\\Shield\\": "jephy-mvc/core/graphql/shield",
+            "App\\Core\\GraphQL\\Shield\\Middleware\\": "jephy-mvc/core/graphql/shield/middleware"
+        },
+        "files": [
+            "jephy-mvc/core/Helper.php"
+        ]
+    }
+}
